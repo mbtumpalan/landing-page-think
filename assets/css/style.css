@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	font-size: 12px;
+	background-color: #F3D6DB;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 170px;
+    overflow: hidden;
+ /*   background-color: #87E4F5;*/
+/*    opacity: 0.9;*/
+    color: #666666;
+}
+
+li {
+    float: left;
+    position: relative;
+
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: #666666;
+    text-decoration: none;
+}
+
+
+/*.banner {
+	background-color: ;*/
+/*	background-image: url(../images/donut1.jpg);*/
+/*	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+
+}*/
+
+.left-container {
+	background-image: url(../images/bulb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	/*border: 5px solid black;*/
+}
+
+.textbox {
+	width: 53vw;
+	padding: 30px;
+	position: absolute;
+	top: 72.8%;
+	left: 73%;
+	border: 5px solid white;
+	text-align: left;
+	transform: translate(-50%, -50%);
+	font-size: 4em;
+	line-height: 50px;
+	/*height: 220px;*/
+}
+
+.span {
+	position: relative;
+/*	top: 72.8%;
+	left: 100%;*/
+	display: inline-block;
+	float: right;
+	/*width: 20px;*/
+
+}
+
+#image-landing {
+	width: 300px;
+	top: 23px;
+	left: 330px;
+	position: absolute;
+	z-index: -1;
+	/*line-height: 322px;*/
+	/*margin-top: 100px;*/
+}
+/*.gif {
+	background-image: url(https://media.giphy.com/media/1qWN8QK4d9ZqjWiMR6/giphy.gif);
+	background-size: cover;
+	width: 30%;
+	height: 16.8%;
+	padding: 40px;
+	position: absolute;
+	top: 72.4%;
+	left: 49%;
+	border: 5px solid white;
+	border-left: none;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}*/
+
+.textbox-right {
+	width: 500px;
+	height: 70px;
+	background-color: #ffffff;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 180px;
+	font-size: 5em;
+	padding: 50px;
+}
+
+
+.footer {
+	min-height: 50px;
+	position: absolute;
+	bottom: 10px;
+	right: 150px;
+	color: #666666;
+}
+
+.socmed {
+	float: right;
+	display: block;
+	margin-left: 30px;
+}
+
+img[alt*="social"] {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.name {
+	display: inline-block;
+	position: relative;
+	font-size: 8px;
+}
+/*.column {
+	float: left;
+	padding: 10px;
+	height: 700px;
+	width: 50%;
+}*/
+
+.footer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
